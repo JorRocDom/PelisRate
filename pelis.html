@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pelis</title>
+    <script src="movies.js"></script>
+    <script src="utilities.js"></script>
+</head>
+<body>
+    <header class="main-header">
+
+        <nav class="navbar">
+          <button class="menu-btn"><a href="index.html">Inicio</a></button>
+          <button class="menu-btn"><a href="pelis.html">Peliculas</a></button>
+          <button class="menu-btn"><a href="videojuegos.html">Videojuegos</a></button>
+          
+        </nav>
+        
+    </header>
+
+    <h1>Rating Movies</h1> 
+
+    <h2>Lista de Películas</h2>
+
+    <div class="container" id="movies-container">
+        <!-- Las películas se agregarán aquí dinámicamente con JavaScript -->
+    </div>
+    
+
+    <div class="pagination">
+        <button id="prevPage">&laquo; Anterior</button>
+        <div id="pageNumbers"></div>
+        <button id="nextPage">Siguiente &raquo;</button>
+    </div>
+
+</body>
+</html>
